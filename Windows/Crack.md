@@ -12,7 +12,7 @@ cscript //nologo ospp.vbs /dstatus        REM Kiểm tra trạng thái bản quy
 cscript //nologo ospp.vbs /remhst         REM Lệnh CMD làm sạch dấu vết KMS trái phép
 cscript //nologo ospp.vbs /unpkey:B9HB6   REM Gỡ 5 ký tự cuối của các product key đã cài
 ```
-5. Kích hoạt Server bên ngoài
+3. Kích hoạt Server bên ngoài
 
 **Lưu ý:** 
 - Key sưu tầm trên Internet: 2KKDC-67TT9-4XT2F-2MG99-B9HB6
