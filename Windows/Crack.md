@@ -6,21 +6,12 @@ Key Management Service (KMS) Activator Office
 - C:\Program Files (x86)\Microsoft Office\Office14\
 - C:\Program Files\Microsoft Office\Office14\
 
-2. Kiểm tra trạng thái bản quyền Office
+2. Các lệnh cơ bản
 ```
-cscript //nologo ospp.vbs /dstatus
+cscript //nologo ospp.vbs /dstatus        REM Kiểm tra trạng thái bản quyền Office
+cscript //nologo ospp.vbs /remhst         REM Lệnh CMD làm sạch dấu vết KMS trái phép
+cscript //nologo ospp.vbs /unpkey:B9HB6   REM Gỡ 5 ký tự cuối của các product key đã cài
 ```
-
-3. Gỡ 5 ký tự cuối của các product key đã cài
-```
-cscript //nologo ospp.vbs /unpkey:B9HB6
-```
-
-4. Lệnh CMD làm sạch dấu vết KMS trái phép
-```
-cscript //nologo ospp.vbs /remhst
-```
-
 5. Kích hoạt Server bên ngoài
 
 **Lưu ý:** 
@@ -34,7 +25,7 @@ cscript //nologo ospp.vbs /act
 # Windows
 1. Các câu lệnh cơ bản
 ```
-slmgr /dli     REM  Hiển thị thông tin cơ bản
+slmgr /dli     REM Hiển thị thông tin cơ bản
 slmgr /dlv     REM Hiển thị chi tiết đầy đủ
 slmgr /xpr     REM Kiểm tra: Windows đã kích hoạt
 slmgr /ckms    REM Xóa cấu hình KMS server
@@ -48,11 +39,11 @@ slmgr /rearm   REM Reset thời gian đánh giá (grace period) của Windows
 - Key sưu tầm trên Internet: W269N-WFGWX-YVC9B-4J6C9-T83GX
 - Server kms8.MSGuides.com chưa kiểm chứng, có nguy cơ đính kèm Malware
 ```
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr /skms kms8.MSGuides.com
-slmgr /ato
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX    REM Cài product key
+slmgr /skms kms8.MSGuides.com               REM Trỏ đến KMS server
+slmgr /ato                                  REM Yêu cầu Windows kích hoạt
 ```
-3. Cài license từ file .xrm-ms
+3. Cài license từ file
 ```
-slmgr /ilc <license_file>
+slmgr /ilc <license_file>   REM file .xrm-ms
 ```
