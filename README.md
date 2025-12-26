@@ -1,1 +1,1 @@
-# CyberAware
+# Cybersecurity Awareness
