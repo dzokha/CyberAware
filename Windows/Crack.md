@@ -47,3 +47,22 @@ slmgr /ato                                  REM Yêu cầu Windows kích hoạt
 ```
 slmgr /ilc <license_file>   REM file .xrm-ms
 ```
+4. Các câu lệnh liên quan dịch vụ Windows
+```
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+```
+5. Thay đổi product key
+```
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T 
+exit
+```
+6. Chuyển edition
+```
+Dism /Online /Get-TargetEditions
+```
+7. Thư mục chứa License token
+```
+C:\Windows\System32\spp\tokens\skus
+```
+
