@@ -1,4 +1,4 @@
-# CRACK
+# Office
 ## 1. Key Management Service (KMS) Activator Office
 1.1. Thực hiện CMD trong đường dẫn sau với quyền Administrator:
 
