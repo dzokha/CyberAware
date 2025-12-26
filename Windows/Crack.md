@@ -22,7 +22,9 @@ cscript //nologo ospp.vbs /remhst
 
 1.5. Kích hoạt Server bên ngoài
 
-**Lưu ý:** Server kms8.MSGuides.com chưa kiểm chứng, có nguy cơ đính kèm Malware
+**Lưu ý:** 
+- Key sưu tầm trên Internet: 2KKDC-67TT9-4XT2F-2MG99-B9HB6
+- Server kms8.MSGuides.com chưa kiểm chứng, có nguy cơ đính kèm Malware
 ```
 cscript //nologo ospp.vbs /inpkey:2KKDC-67TT9-4XT2F-2MG99-B9HB6
 cscript //nologo ospp.vbs /sethst:kms8.MSGuides.com
