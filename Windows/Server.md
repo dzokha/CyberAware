@@ -1,4 +1,4 @@
-    # Các Server công khai
+# Các Server công khai
 **LƯU Ý:** Chưa kiểm chứng, có nguy cơ nguy hiểm
 1. kms8.msguides.com
 2. kms.xspace.in
