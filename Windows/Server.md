@@ -8,7 +8,7 @@
 ## Key Windows 11
 - Pro
 ```
-  X3W8N-3WQCV-2MXDF-K77MK-7XMP6
+X3W8N-3WQCV-2MXDF-K77MK-7XMP6
 ```
 - Education
 ```
